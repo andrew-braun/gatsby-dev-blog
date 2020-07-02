@@ -6,6 +6,7 @@ export default function Home() {
   return ( 
     <div className="main-container">
       <Link to="/about/">About </Link>
+      <Link to="/contact/">Contact</Link>
       <header>
         <Header headerText="Basic Dev Blog" />
       </header>
