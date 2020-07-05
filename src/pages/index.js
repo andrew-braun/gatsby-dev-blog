@@ -1,12 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function Home() {
   return ( 
     <div className="main-container">
+      <Link to="/">Home</Link>
       <Link to="/about/">About </Link>
-      <Link to="/contact/">Contact</Link>
+      <Link to="/contact/">Contact</Link> 
       <header>
         <Header headerText="Basic Dev Blog" />
       </header>
