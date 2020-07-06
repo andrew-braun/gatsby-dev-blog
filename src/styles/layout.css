@@ -3,6 +3,11 @@ html {
     text-align: center;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: whitesmoke;
 }
