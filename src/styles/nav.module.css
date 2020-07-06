@@ -1,4 +1,14 @@
-nav {
+.header-nav {
     display: flex;
     background-color: black;
 }
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.nav-link:hover {
+    background-color: darkblue;
+}
+

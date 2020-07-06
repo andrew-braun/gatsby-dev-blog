@@ -5,9 +5,9 @@ import navStyles from "../styles/nav.module.css";
 export default function Nav () {
     return (
         <nav className={navStyles.headerNav}>
-            <Link to="/">Home</Link>
-            <Link to="/about/">About </Link>
-            <Link to="/contact/">Contact</Link>
+            <Link to="/" className={navStyles.navLink}>Home</Link>
+            <Link to="/about/" className={navStyles.navLink}>About </Link>
+            <Link to="/contact/" className={navStyles.navLink}>Contact</Link>
         </nav>
     )
 }
