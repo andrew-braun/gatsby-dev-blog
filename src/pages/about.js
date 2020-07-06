@@ -4,13 +4,15 @@ import Nav from "../components/nav";
 import Container from "../components/container";
 import User from "../components/user";
 import { Link } from "gatsby";
+import Layout from "../styles/layout.css"
 
 
 export default function About() {
     return (
-        <div style = {{ color: 'orange'}}>
+        <div className="about-container" style = {{ color: 'black' }}>
             <Header headerText="About the blog"/>
             <Container>
+                <h2>What's the blog about?</h2>
                 <p>I already have several blogs I don't blog on.
                     This will probably meet the same fate.
                 </p>

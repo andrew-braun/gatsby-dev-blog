@@ -1,9 +1,5 @@
-header {
-
-}
-
 .main-header {
-    background-color: firebrick;
+    background-color: var(--primary-dark);
     text-align: center;
 }
 

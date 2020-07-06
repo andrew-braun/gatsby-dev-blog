@@ -1,5 +1,12 @@
+:root {
+    --primary-dark: hsla(320, 10%, 18%, 1);
+    --secondary-dark: hsla(253, 10%, 36%, 1);
+    --primary-light: hsla(160, 24%, 85%, 1);
+    --accent-dark: hsla(225, 27%, 55%, 1);
+    --accent-bright: hsla(235, 60%, 59%, 1);
+}
+
 html {
-    background-color: teal;
     text-align: center;
 }
 
@@ -8,14 +15,18 @@ body {
     padding: 0;
 }
 
-h1 {
+h1, h2, h3 {
     color: whitesmoke;
 }
 
 a {
-    color: whitesmoke;
+    color: var(--primary-light);
 }
 
 a:hover {
-    color: orange;
+    color: var(--accent-bright);
+}
+
+.about-container h2 {
+    text-align: left;
 }

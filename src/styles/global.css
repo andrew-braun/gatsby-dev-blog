@@ -1,5 +1,13 @@
-
-
 html {
-    background-color: teal;
+    background-color: var(--secondary-dark);
+    color: var(--primary-light);
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.about-container container h2 {
+    text-align: left;
+    background-color: black;
 }
