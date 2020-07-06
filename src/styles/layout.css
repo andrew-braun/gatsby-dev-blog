@@ -1,7 +1,16 @@
 html {
     background-color: teal;
+    text-align: center;
 }
 
 h1 {
     color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: orange;
 }
